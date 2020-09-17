@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F869EFB4251188E100CDD483 /* DownloadAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869EFB3251188E100CDD483 /* DownloadAppView.swift */; };
+		F869EFB5251188E100CDD483 /* DownloadAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F869EFB3251188E100CDD483 /* DownloadAppView.swift */; };
+		F8B24BDA25102AD000AD9D8F /* VivoPayEncryptionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BC725102ACF00AD9D8F /* VivoPayEncryptionApp.swift */; };
+		F8B24BDB25102AD000AD9D8F /* VivoPayEncryptionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BC725102ACF00AD9D8F /* VivoPayEncryptionApp.swift */; };
+		F8B24BDC25102AD000AD9D8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BC825102ACF00AD9D8F /* ContentView.swift */; };
+		F8B24BDD25102AD000AD9D8F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BC825102ACF00AD9D8F /* ContentView.swift */; };
+		F8B24BDE25102AD000AD9D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B24BC925102AD000AD9D8F /* Assets.xcassets */; };
+		F8B24BDF25102AD000AD9D8F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B24BC925102AD000AD9D8F /* Assets.xcassets */; };
+		F8B24BE92510765C00AD9D8F /* BackupEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BE82510765C00AD9D8F /* BackupEncryption.swift */; };
+		F8B24BEA2510765C00AD9D8F /* BackupEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BE82510765C00AD9D8F /* BackupEncryption.swift */; };
+		F8B24BEC2510858800AD9D8F /* WalletEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BEB2510858800AD9D8F /* WalletEncryption.swift */; };
+		F8B24BED2510858800AD9D8F /* WalletEncryption.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BEB2510858800AD9D8F /* WalletEncryption.swift */; };
+		F8B24BF22510919600AD9D8F /* BackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BF12510919600AD9D8F /* BackupView.swift */; };
+		F8B24BF32510919600AD9D8F /* BackupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BF12510919600AD9D8F /* BackupView.swift */; };
+		F8B24BF52510919F00AD9D8F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BF42510919F00AD9D8F /* WalletView.swift */; };
+		F8B24BF62510919F00AD9D8F /* WalletView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B24BF42510919F00AD9D8F /* WalletView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F869EFB3251188E100CDD483 /* DownloadAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadAppView.swift; sourceTree = "<group>"; };
+		F8B24BC725102ACF00AD9D8F /* VivoPayEncryptionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VivoPayEncryptionApp.swift; sourceTree = "<group>"; };
+		F8B24BC825102ACF00AD9D8F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8B24BC925102AD000AD9D8F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8B24BCE25102AD000AD9D8F /* VivoPayEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivoPayEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B24BD125102AD000AD9D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B24BD625102AD000AD9D8F /* VivoPayEncryption.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VivoPayEncryption.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B24BD825102AD000AD9D8F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8B24BD925102AD000AD9D8F /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		F8B24BE82510765C00AD9D8F /* BackupEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupEncryption.swift; sourceTree = "<group>"; };
+		F8B24BEB2510858800AD9D8F /* WalletEncryption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletEncryption.swift; sourceTree = "<group>"; };
+		F8B24BF12510919600AD9D8F /* BackupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackupView.swift; sourceTree = "<group>"; };
+		F8B24BF42510919F00AD9D8F /* WalletView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B24BCB25102AD000AD9D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B24BD325102AD000AD9D8F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8B24BC125102ACF00AD9D8F = {
+			isa = PBXGroup;
+			children = (
+				F8B24BC625102ACF00AD9D8F /* Shared */,
+				F8B24BD025102AD000AD9D8F /* iOS */,
+				F8B24BD725102AD000AD9D8F /* macOS */,
+				F8B24BCF25102AD000AD9D8F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B24BC625102ACF00AD9D8F /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24BC725102ACF00AD9D8F /* VivoPayEncryptionApp.swift */,
+				F8B24BC825102ACF00AD9D8F /* ContentView.swift */,
+				F8B24BF12510919600AD9D8F /* BackupView.swift */,
+				F8B24BF42510919F00AD9D8F /* WalletView.swift */,
+				F869EFB3251188E100CDD483 /* DownloadAppView.swift */,
+				F8B24BF72510A4BB00AD9D8F /* Encryption */,
+				F8B24BC925102AD000AD9D8F /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		F8B24BCF25102AD000AD9D8F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24BCE25102AD000AD9D8F /* VivoPayEncryption.app */,
+				F8B24BD625102AD000AD9D8F /* VivoPayEncryption.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B24BD025102AD000AD9D8F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24BD125102AD000AD9D8F /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		F8B24BD725102AD000AD9D8F /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24BD825102AD000AD9D8F /* Info.plist */,
+				F8B24BD925102AD000AD9D8F /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		F8B24BF72510A4BB00AD9D8F /* Encryption */ = {
+			isa = PBXGroup;
+			children = (
+				F8B24BE82510765C00AD9D8F /* BackupEncryption.swift */,
+				F8B24BEB2510858800AD9D8F /* WalletEncryption.swift */,
+			);
+			path = Encryption;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8B24BCD25102AD000AD9D8F /* VivoPayEncryption (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B24BE225102AD000AD9D8F /* Build configuration list for PBXNativeTarget "VivoPayEncryption (iOS)" */;
+			buildPhases = (
+				F8B24BCA25102AD000AD9D8F /* Sources */,
+				F8B24BCB25102AD000AD9D8F /* Frameworks */,
+				F8B24BCC25102AD000AD9D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VivoPayEncryption (iOS)";
+			productName = "VivoPayEncryption (iOS)";
+			productReference = F8B24BCE25102AD000AD9D8F /* VivoPayEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8B24BD525102AD000AD9D8F /* VivoPayEncryption (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B24BE525102AD000AD9D8F /* Build configuration list for PBXNativeTarget "VivoPayEncryption (macOS)" */;
+			buildPhases = (
+				F8B24BD225102AD000AD9D8F /* Sources */,
+				F8B24BD325102AD000AD9D8F /* Frameworks */,
+				F8B24BD425102AD000AD9D8F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VivoPayEncryption (macOS)";
+			productName = "VivoPayEncryption (macOS)";
+			productReference = F8B24BD625102AD000AD9D8F /* VivoPayEncryption.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B24BC225102ACF00AD9D8F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					F8B24BCD25102AD000AD9D8F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					F8B24BD525102AD000AD9D8F = {
+						CreatedOnToolsVersion = 12.0;
+					};
+				};
+			};
+			buildConfigurationList = F8B24BC525102ACF00AD9D8F /* Build configuration list for PBXProject "VivoPayEncryption" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8B24BC125102ACF00AD9D8F;
+			productRefGroup = F8B24BCF25102AD000AD9D8F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B24BCD25102AD000AD9D8F /* VivoPayEncryption (iOS) */,
+				F8B24BD525102AD000AD9D8F /* VivoPayEncryption (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B24BCC25102AD000AD9D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B24BDE25102AD000AD9D8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B24BD425102AD000AD9D8F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B24BDF25102AD000AD9D8F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B24BCA25102AD000AD9D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B24BEC2510858800AD9D8F /* WalletEncryption.swift in Sources */,
+				F8B24BDC25102AD000AD9D8F /* ContentView.swift in Sources */,
+				F8B24BE92510765C00AD9D8F /* BackupEncryption.swift in Sources */,
+				F8B24BF22510919600AD9D8F /* BackupView.swift in Sources */,
+				F8B24BDA25102AD000AD9D8F /* VivoPayEncryptionApp.swift in Sources */,
+				F8B24BF52510919F00AD9D8F /* WalletView.swift in Sources */,
+				F869EFB4251188E100CDD483 /* DownloadAppView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B24BD225102AD000AD9D8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B24BED2510858800AD9D8F /* WalletEncryption.swift in Sources */,
+				F8B24BDD25102AD000AD9D8F /* ContentView.swift in Sources */,
+				F8B24BEA2510765C00AD9D8F /* BackupEncryption.swift in Sources */,
+				F8B24BF32510919600AD9D8F /* BackupView.swift in Sources */,
+				F8B24BDB25102AD000AD9D8F /* VivoPayEncryptionApp.swift in Sources */,
+				F8B24BF62510919F00AD9D8F /* WalletView.swift in Sources */,
+				F869EFB5251188E100CDD483 /* DownloadAppView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F8B24BE025102AD000AD9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8B24BE125102AD000AD9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F8B24BE325102AD000AD9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS2K96ZEMY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.VivoPayEncryption;
+				PRODUCT_NAME = VivoPayEncryption;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8B24BE425102AD000AD9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QS2K96ZEMY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.VivoPayEncryption;
+				PRODUCT_NAME = VivoPayEncryption;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B24BE625102AD000AD9D8F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QS2K96ZEMY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.VivoPayEncryption;
+				PRODUCT_NAME = VivoPayEncryption;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F8B24BE725102AD000AD9D8F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = QS2K96ZEMY;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.starlingprotocol.VivoPayEncryption;
+				PRODUCT_NAME = VivoPayEncryption;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B24BC525102ACF00AD9D8F /* Build configuration list for PBXProject "VivoPayEncryption" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B24BE025102AD000AD9D8F /* Debug */,
+				F8B24BE125102AD000AD9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B24BE225102AD000AD9D8F /* Build configuration list for PBXNativeTarget "VivoPayEncryption (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B24BE325102AD000AD9D8F /* Debug */,
+				F8B24BE425102AD000AD9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B24BE525102AD000AD9D8F /* Build configuration list for PBXNativeTarget "VivoPayEncryption (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B24BE625102AD000AD9D8F /* Debug */,
+				F8B24BE725102AD000AD9D8F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B24BC225102ACF00AD9D8F /* Project object */;
+}
