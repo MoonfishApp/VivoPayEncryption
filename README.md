@@ -1,4 +1,4 @@
-# VivoEncryption
+# VivoPayEncryption
 Source code and demo of the encryption used in VivoPay to store and backup wallets.
 
 ![screenshot of VivoEncryption](readme/screenshot.png)
