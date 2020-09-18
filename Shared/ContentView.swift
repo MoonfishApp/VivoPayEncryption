@@ -25,16 +25,16 @@ struct ContentView: View {
     var body: some View {
         
         TabView {
-            BackupView(mnemonic: $plaintext)
-                .tabItem {
-                    Image(systemName: "dollarsign.square")
-                    Text("Backup")
-                }
             WalletView(mnemonic: $plaintext)
                 .tabItem {
                     Image(systemName: "wallet.pass")
                     Text("Wallet")
                 }
+            BackupView(mnemonic: $plaintext)
+                .tabItem {
+                    Image(systemName: "dollarsign.square")
+                    Text("Backup")
+                }            
             DownloadAppView()
                 .tabItem {
                     Image(systemName: "square.and.arrow.down")

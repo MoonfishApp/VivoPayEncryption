@@ -1,7 +1,7 @@
 # VivoPayEncryption
 Source code and demo of the encryption used in VivoPay to store and backup wallets.
 
-![screenshot of VivoEncryption](readme/screenshot.png)
+![screenshot of VivoEncryption](readme/screenshot.png | width=400)
 
 ## Features 
 - Demonstrates how VivoPay encrypts the wallet on disk using the Secure Enclave (AES-GCM). 
