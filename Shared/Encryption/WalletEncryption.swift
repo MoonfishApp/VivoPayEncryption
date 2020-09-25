@@ -25,7 +25,7 @@ struct WalletEncryption {
     fileprivate var privateKey: SecKey?
     
     fileprivate static let encryptionAlgorithm = SecKeyAlgorithm.eciesEncryptionCofactorX963SHA256AESGCM
-    fileprivate static let tag = "com.starlingprotocol.vivopay2"
+    fileprivate static let tag = "com.starlingprotocol.vivopayencryptiondemo"
         
     /// Initialized keys
     /// - Throws: CryptoKit error
